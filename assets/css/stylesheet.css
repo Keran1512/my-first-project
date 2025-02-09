@@ -63,7 +63,28 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+
 /* Main content styles */
+
+carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.carousel {
+  width: 500px;%; /* Or try to use important */
+  height:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 main {font-family: "Spinnaker", serif;
   font-weight: 400;
