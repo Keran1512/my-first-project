@@ -85,6 +85,13 @@ carousel {
 .carousel {
   width: 500px; 
   height:auto;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .center {
@@ -101,8 +108,7 @@ main {font-family: "Spinnaker", serif;
   font-style: normal;
   margin: 20px;
   padding: 20px 0;
-  
-}
+  }
 
 /* Footer styles */
 
@@ -110,7 +116,27 @@ footer {
   background-color: #be95be;
   color: #fff;
   padding: 10px 0;
-  text-align: center;
+
+}
+
+.card {
+  background-color: #589bde;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  align-items: center;
+  width: 500px; 
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h5 {
+  font-size: 24px;
+  margin: 0 0 20px;
+  color:#333
 }
 
 /* Responsive styles */
@@ -123,22 +149,22 @@ footer {
 }
 
 /* Media Queries */
-// X-Small devices (portrait phones, less than 576px)
+/* X-Small devices (portrait phones, less than 576px)*/
 // No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+/*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { ... }
 
-// X-Large devices (large desktops, 1200px and up)
+/* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { ... }
 
 
