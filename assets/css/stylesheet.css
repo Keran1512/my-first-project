@@ -170,12 +170,7 @@ h2 {
 
 /* Portfolio page styles */
 
-#portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
 
-}
 
 .img-fluid {
   flex: 75%;
@@ -228,12 +223,8 @@ h2 {
 
 /* Responsive styles */
 
-@media screen and (max-width: 768px) {
-  nav ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-}
+
+
 
 /* Media Queries */
 /* X-Small devices (portrait phones, less than 576px)*/
