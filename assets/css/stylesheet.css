@@ -2,17 +2,17 @@
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { max-width: 767px; }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { max-width: 991px; }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { max-width: 1199px; }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { max-width: 1399px;}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+ 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
 
 
 
@@ -30,15 +30,7 @@
 
 
 
-/*{
-  font-family: 'Spinnaker', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-*/
+
 
 .head {
   background-color: #be95be;
@@ -46,9 +38,8 @@
 
 body{
   background-color: #6dbfb8;
-  font-family: Spinnaker, sans-serif;
-  font-size: 18
-  px;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   color: #333;
   margin: 0;
@@ -118,15 +109,11 @@ nav ul li a:hover {
 /* Main content styles */
 
 .carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 500px; 
   height:auto;
   padding: 20px;
   margin-left: auto;
   margin-right: auto; 
-
 }
 
 .center {
@@ -267,24 +254,7 @@ h2 {
 
 
 
-/* Media Queries */
-/* X-Small devices (portrait phones, less than 576px)*/
-// No media query for `xs` since this is the default in Bootstrap
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
-
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
 
 
 
