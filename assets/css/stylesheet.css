@@ -3,19 +3,18 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { max-width: 767px; }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { max-width: 991px; }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { max-width: 1199px; }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { max-width: 1399px;}
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+
 
 
 /* Google fonts import */
@@ -47,6 +46,13 @@
 
 body{
   background-color: #6dbfb8;
+  font-family: Spinnaker, sans-serif;
+  font-size: 18
+  px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0; 
 }
 
          
@@ -71,6 +77,12 @@ header {
 }
 
 /* Navigation styles */
+.company-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
 
 nav ul {
   list-style: none;
@@ -175,7 +187,8 @@ footer {
 
 }
 
-.card {
+/* Holiday Search page styles */
+.portfolio{
   background-color: #589bde;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
