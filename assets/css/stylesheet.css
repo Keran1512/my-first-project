@@ -17,9 +17,7 @@
 
 
 
-/* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Spinnaker&display=swap');
 
 
 /* CSS variables */
@@ -27,10 +25,14 @@
 
 /* General styles */
 
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
 
-
-
-
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .head {
   background-color: #be95be;
@@ -44,6 +46,10 @@ body{
   color: #333;
   margin: 0;
   padding: 0; 
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
          
@@ -251,6 +257,14 @@ h2 {
 
 /* Responsive styles */
 
+@media screen and (min-width: 400px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  
+}
 
 
 

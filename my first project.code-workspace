@@ -7,5 +7,14 @@
 			"path": "../.."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my first project"
+	}
 }
+
+{
+	"scripts": {
+	  "test": "jest"
+	}
+  }
+```	
