@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Air, There and Everywhere Travel Company</title>
 
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Air, There and Everywhere Travel Company</title>
+
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,7 +21,7 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 
-<body>
+<body class="bg-light" id="destinations">
     <header>
 
 
@@ -49,72 +55,75 @@
 
     </header>
 
+
     <main>
         <section>
             <h2 class="display-4">Popular Destinations</h2>
             <p>Discover our most popular destinations and book your dream holiday today.</p>
             </div>
-            <!--Portfolio Section-->
-            <section id="portfolio" class="container text-center pb-5">
+        </section>
+
+        <!--Portfolio Section-->
+        <section id="portfolio" class="container text-center pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/css/images/New York Gemini_Generated_Image_6iop4f6iop4f6iop.jpg"
+                            class="card-img-top" alt="New York City skyline">
+                        <div class="card-body">
+                            <h5 class="card-title">New York</h5>
+                            <a href="newyork.html" name="newyork" id="newyork" class="btn btn-primary">Learn
+                                More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/css/images/Paris Gemini_Generated_Image_vb2aucvb2aucvb2a.jpg"
+                            class="card-img-top" alt="Paris City landscape">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <a href="paris.html" name="paris" id="paris" button type="button"
+                                class="btn btn-primary">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-                            <img src="assets/css/images/New York Gemini_Generated_Image_6iop4f6iop4f6iop.jpg"
-                                class="card-img-top" alt="New York City skyline">
+                            <img src="assets/css/images/Dubai Gemini_Generated_Image_xghxtkxghxtkxghx.jpg"
+                                class="card-img-top" alt="Dubai skyline">
                             <div class="card-body">
-                                <h5 class="card-title">New York</h5>
-                                <a href="newyork.html" name="newyork" id="newyork" class="btn btn-primary">Learn
+                                <h5 class="card-title">Dubai</h5>
+                                <a href="dubai.html" name="dubai" id="dubai" button type="button"
+                                    class="btn btn-primary">Learn
                                     More</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="assets/css/images/Paris Gemini_Generated_Image_vb2aucvb2aucvb2a.jpg"
-                                class="card-img-top" alt="Paris City landscape">
-                            <div class="card-body">
-                                <h5 class="card-title">Paris</h5>
-                                <a href="paris.html" name="paris" id="paris" button type="button"
-                                    class="btn btn-primary">Learn More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="assets/css/images/Dubai Gemini_Generated_Image_xghxtkxghxtkxghx.jpg"
-                                    class="card-img-top" alt="Dubai skyline">
+                                <img src="assets/css/images/Barcelona Gemini_Generated_Image_2wltpa2wltpa2wlt.jpg"
+                                    class="card-img-top" alt="Barcelona City landscape">
                                 <div class="card-body">
-                                    <h5 class="card-title">Dubai</h5>
-                                    <a href="dubai.html" name="dubai" id="dubai" button type="button"
+                                    <h5 class="card-title">Barcelona</h5>
+                                    <a href="barcelona.html" name="barcelona" id="barcelona" button type="button"
                                         class="btn btn-primary">Learn
                                         More</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="assets/css/images/Barcelona Gemini_Generated_Image_2wltpa2wltpa2wlt.jpg"
-                                        class="card-img-top" alt="Barcelona City landscape">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Barcelona</h5>
-                                        <a href="barcelona.html" name="barcelona" id="barcelona" button type="button"
-                                            class="btn btn-primary">Learn
-                                            More</button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-            </section>
+        </section>
     </main>
 
     <!--JavaScript link-->
@@ -122,13 +131,13 @@
 
     <!--Bootstrap JS-->
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

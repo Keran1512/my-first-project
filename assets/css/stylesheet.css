@@ -206,16 +206,18 @@ input[type=text], select
   color:#333
 }
 
-/* New York page styles */
+/* Destinations page styles */
 
-h2 {
+.destinations.h2 {
+
   font-size: 32px;
   margin: 0 0 20px;
 }
 
-
-/* Portfolio page styles */
-
+.p {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
 
 
 .img-fluid {
@@ -224,6 +226,11 @@ h2 {
   height: auto;
   margin: 4px;
   padding: 0 4px;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
