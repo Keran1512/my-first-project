@@ -13,6 +13,21 @@
 
   <!--Custom CSS-->
   <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+  <!--Form Action-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+  <script src="https://malsup.github.io/jquery.form.js"></script> 
+
+  <script> 
+      // wait for the DOM to be loaded 
+      $(document).ready(function() { 
+          // bind 'myForm' and provide a simple callback function 
+          $('#myForm').ajaxForm(function() { 
+              alert("Thank you for your comment!"); 
+          }); 
+      }); 
+  </script> 
+
 </head>
 
 <body>
@@ -119,8 +134,9 @@
 </body>
 
 <footer>
+  <!--Holiday Form Search-->
   <h2>Search for your dream holiday</h2>
-  <form action="/action_page/form-data.php" method="get" name="search" on submit="return validateForm()">
+  <form id="myForm" action="/action_page/form-data.php" method="post">
     <label for="destination">Destination</label>
     <input type="text" id="destination" name="destination" required><br><br>
     <label for="duration">Duration</label>
@@ -180,7 +196,7 @@
     <input type="range" id="rating" name="rating" min="0" max="5" step="0.5" value="3">
     <output for="rating">5*</output><br><br>
 
-    <input type="submit" name="search" value="Search">
+    <input type="submit" name="search" value="Submit Form">
   </form>
 </footer>
 
