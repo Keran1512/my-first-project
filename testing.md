@@ -2,6 +2,8 @@ Project Name- Air, There and Everywhere Travel website
 
 View an example of this section  here
 
+
+
 Visit the deployed site:
 
 
@@ -9,8 +11,8 @@ Contents
 
 AUTOMATED TESTING
 
-W3C Validator
-W3C Validator CSS Validation Service
+W3C Validator:  
+W3C Validator CSS Validation Service:  
 
 index.html
 search.html
@@ -31,7 +33,7 @@ timessquare.html
 stylesheet.css
 
 
-JavaScript Validator
+JavaScript Validator:  
 test.js
 
 
