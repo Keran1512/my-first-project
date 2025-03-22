@@ -131,16 +131,6 @@ nav ul li a:hover {
   margin-right: auto; 
 }
 
-.main {font-family: "Spinnaker", serif;
-  font-weight: 400;
-  font: size 16px;
-  line-height: 1.5;
-  color:#333
-  font-style: normal;
-  margin: 70px 0;
-  padding: 50px 10px 20px 30px;
-  }
-
 
   /* Index page styles */
 
@@ -158,10 +148,11 @@ nav ul li a:hover {
     margin-right: auto;
   }
   /* Container styles */
-.container.main {
+.container-md {
   font-size: 40px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 100px;
 
 }
 
@@ -207,12 +198,18 @@ input[type=text], select
   color:#333
 }
 
+.myForm {
+
+}
+
 /* Destinations page styles */
 
 .destinations.h2 {
 
   font-size: 32px;
   margin: 0 0 20px;
+  text-align: center;
+  margin: 0,0, 50px;
 }
 
 .p {
@@ -266,6 +263,11 @@ input[type=text], select
 }
 
 
+.map-card-body {
+  position: relative;
+  min-height:auto;
+
+}
 
 /* Paris page styles */
 
